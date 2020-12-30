@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://use.fontawesome.com/ad2a15a353.js"></script>
+</head>
+<body>
+  <div class="parent">
+      <div class="child1">
+          <div class="hero">
+            <h1><span>Meet</span></h1>
+            <h1><span>Tim Berner Lee</span></h1>
+            <h1><span>The inventor of the World Wide Web</span></h1>
+          </div>
+      </div>
+      <div class="child2">
+          <h1><i class="fa fa-user" aria-hidden="true">Profile</i></h1>
+          <p>Tim Berners-Lee is a software engineer who invented the Internet (or the World Wide Web) in 1989 while at CERN, the European Particle Physics Laboratory.
+
+            He is director of the World Wide Web Consortium that he founded and a Professor in the Computer Science Department at the University of Oxford.
+            
+            In 2001 he became a Fellow of the Royal Society and in 2004 he was knighted</p>
+      </div>
+      <div class="child3">
+        <section class="carousel" aria-label="Gallery">
+            <ol class="carousel__viewport">
+              <li id="carousel__slide1"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"><img class="img" src="image/gettyimages-531113062-2048x2048.jpg"></div>
+                  <a href="#carousel__slide4"
+                     class="carousel__prev">Go to last slide</a>
+                  <a href="#carousel__slide2"
+                     class="carousel__next">Go to next slide</a>
+             
+              </li>
+              <li id="carousel__slide2"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"><img class="img" src="image/gettyimages-531113062-2048x2048.jpg"></div>
+                <a href="#carousel__slide1"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide3"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide3"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"><img class="img" src="./image/images.jpg"></div>
+                <a href="#carousel__slide2"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide4"
+                   class="carousel__next">Go to next slide</a>
+              </li>
+              <li id="carousel__slide4"
+                  tabindex="0"
+                  class="carousel__slide">
+                <div class="carousel__snapper"><img class="img" src="./image/gettyimages-1137103105-2048x2048.jpg"></div>
+                <a href="#carousel__slide3"
+                   class="carousel__prev">Go to previous slide</a>
+                <a href="#carousel__slide1"
+                   class="carousel__next">Go to first slide</a>
+              </li>
+            </ol>
+            <aside class="carousel__navigation">
+              <ol class="carousel__navigation-list">
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide1"
+                     class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide2"
+                     class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide3"
+                     class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+                <li class="carousel__navigation-item">
+                  <a href="#carousel__slide4"
+                     class="carousel__navigation-button">Go to slide 4</a>
+                </li>
+              </ol>
+            </aside>
+          </section>
+          <div class="wikipedia">
+            <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"  type="button" class="cta">View Wikipedia Page</a>
+          </div>
+      </div>
+      <div class="child4">
+          <div class="award">
+              <h1><i class="fa fa-shield" aria-hidden="true">Awards</i></h1>
+              <h2><i class="fa fa-trophy" aria-hidden="true">Turing Award</i></h2>
+              <h2><i class="fa fa-trophy" aria-hidden="true">Gottlieb Duttweiler Award</i></h2>
+              <h2><i class="fa fa-trophy" aria-hidden="true">Mohammed Bin Rashad Knowledge Award</i></h2>
+              <h2><i class="fa fa-trophy" aria-hidden="true">Pride of Britain Award</i></h2>           
+          </div>
+      </div>
+      <div class="child5">
+          <div class="socials">
+            <div class="img"><a href="#"><img src="./image/icons8-facebook-64.png"></a></div>
+            <div class="img"><a href="#"><img src="./image/icons8-instagram-64.png"></a></div>
+            <div class="img"><a href="#"><img src="./image/icons8-linkedin-64.png"></a></div>
+            <div class="img"><a href="#"><img src="./image/icons8-twitter-64.png"></a></div>
+      </div>
+      <div class="copyright">
+        <p>Copyright@ COLOSSUS 2020</p>
+    </div>
+  </div>   
+</body>
+</html>
